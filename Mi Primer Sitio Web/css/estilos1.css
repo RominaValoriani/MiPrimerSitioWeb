@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Halant&display=swap');
+*{
+    box-sizing: border-box
+}
+body{
+    font-family: 'Halant', serif;
+    margin: 0;
+    background-color: #f8f8f8;
+}
+    header{
+        width: 100%;
+        height: 80px;
+        background-color: #fff9c7;
+        box-shadow: 10px 10px 10px #bfc7ce
+    }
+        header nav{
+            width: 900px;
+            font-size: 24px;
+            margin: auto;
+            display: flex;
+            justify-content: space-evenly;
+            align-content: center;
+            text-align: center;
+            ;
+        }
+        header nav img{
+            width: 110px;
+            border-radius: 50%;
+            border: 2px solid;
+            border-color: #ffe31a;
+        }
+        header nav a{
+            text-decoration: none;
+            color: #7b8b99;
+            line-height: 80px;
+            width: 110px;
+            text-align: center;
+        }
+        header a:hover {
+        font-size:26px;
+            color: #a1abb4;
+            }
+    main{
+        /*background-color: #fffdec;*/
+        width: 900px;
+        margin: auto;
+        padding: 20px;
+    }
+        #hero{
+            height: 400px;
+            display: flex;
+            align-content: center;
+            margin: 30px 20px;
+            /*background-color: rgb(204, 57, 57);*/
+        }
+        h1{
+            /*background-color: rgb(55, 169, 221);*/
+            height: 60px;
+            font-size: 40px;
+            color: #998912;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+        }
+        #parrafo-hero p{
+            width: 500px;
+            height: 110px;
+            font-size: 20px;
+            color: #383835;
+            text-align: justify;
+            margin: 10px;
+            /*background-color: rgb(199, 150, 150);*/
+        }
+        #servicios{
+            /*background: #000;*/
+            width: 900px;
+            height: 300px;
+            display: flex;
+            justify-content: space-between;
+            margin: auto;
+            align-content: center;
+        }
+        #servicios img{
+            border-radius: 50%;
+            width: 130px;
+            margin: auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        #servicios p{
+            /*background-color: rgb(226, 188, 188);*/
+            width: 300px;
+            height: 100px;
+            color: #535e69;
+            font-size: 16px;
+            margin: auto;
+            padding-top: 10px;
+            display: flex;
+            justify-content: space-around;
+            align-content: center;
+        }
+        #parrafo-sobremi h2{
+            width: 500px;
+            height: 40px;
+            font-size: 24px;
+            color: #998912;
+            text-align: center;
+            margin: 20px 20px;
+            /*background: rgb(223, 121, 121);*/
+        }
+        #parrafo-sobremi p{
+            width: 500px;
+            height: 120px;
+            font-size: 16px;
+            color: #998912;
+            text-align: justify;
+            margin: 20px 20px;
+            /*background: rgb(223, 121, 121);*/
+        }
+        #hero-foto{
+            height: 200px;
+            display: flex;
+            justify-content: end;
+            margin: 30px 30px;
+        }
+        .servicios{
+            width: 830px;
+            margin: 20px auto; /*primer valor es vertical y segundo valor es horizontal*/
+            display: flex; /*para poner contenido uno al lado del otro*/
+            height: 226px;
+        }
+        .servicios .imagen-servicio{
+            margin: auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-content: center;
+        }
+        .servicios .txt-servicio h2{
+            width: 550px;
+            height: 30px;
+            font-size: 26px;
+            text-align: justify;
+            margin: 20px 20px;
+            color: #535e69;
+            /*background-color: rgb(255, 208, 208);*/
+        }
+        .servicios .txt-servicio p{
+            width: 550px;
+            height: 120px;
+            font-size: 16px;
+            text-align: justify;
+            margin: 0 20px;
+            color: #535e69;
+            /*background-color: rgb(255, 208, 208);*/
+        }
+        #contenido-contacto .contacto{
+            display: flex;
+            justify-content: space-around;
+            margin-top: 30px;
+            padding: 10px;
+        }
+        #contenido-contacto .contacto h2{
+            height: 30px;
+            font-size: 30px;
+            color: #535e69;
+            display: flex;
+            justify-content: space-around;
+        }
+        /*formulario*/
+        .contacto form{
+            padding: 30px; /*separación dentro de la caja*/
+            /*background-color: rgb(223, 162, 162);*/
+        }
+        input, textarea{
+            width: 400px;
+            padding: 6px;
+            margin-bottom: 10px;
+            display: flex;
+            background-color: #f8f4d2;
+            color: #535e69;
+            border: 1.5px solid #ffe31a;
+            border-radius: 5px;
+            font-size: 20px;
+        }
+        textarea{
+            height: 60px;
+            resize: none; /*bloquear que no puedan agrandar el textarea*/
+        }
+        button{
+            background-color: #e2d347;
+            color: #535e69;
+            width: 150px;
+            padding: 8px;
+            border: 1px solid #ffe31a;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        button:hover{
+            background-color: #ffe600;
+            color: #535e69;
+        }
+    footer{
+        margin: 0;
+        width: 100%;
+        height: 150px;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        align-content: center;
+        background-color: #fff9c7;
+    }
+        .logo img{
+                border-radius: 50%;
+                border: 2px solid;
+                border-color: #ffe31a;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                margin: 60px;
+                /*background-color: rgb(173, 95, 95);
+                flex-wrap: wrap;
+                justify-content: center;
+                align-content: center*/
+            }
+        .texto h3{
+            width: 300px;
+            font-size: 18px;
+            color: #7b8b99;
+            padding: 10px;
+            margin-right: 8px;
+            margin-bottom: 6px;
+            /*background-color: rgb(230, 202, 202);*/
+            }
+        .texto p{
+            font-size: 18px;
+            color: #7b8b99;
+            margin-right: 8px;
+            margin-bottom: 8px;
+            /*background-color: rgb(234, 238, 10);*/
+            }
+        footer .social a{
+            margin-right: 8px;
+            margin-bottom: 8px;
+            text-decoration: none;
+            }
+        footer .social img{
+            width: 32px;
+            opacity: .5;    
+            }
+        footer .social img:hover{
+            opacity: 1;
+            }
+        footer .condiciones-de-uso nav a{
+                width: 300px;
+                text-decoration: none;
+                font-size: 10px;
+                color: #7b8b99;    
+                width: 100px;
+                margin-right: 8px;
+                margin-bottom: 8px;
+            }
+        hr{
+            color: #ffe31a;
+        }
+        .contacto h4, a{
+            color: #535e69;
+            text-decoration: none;
+        }
+        #img-wsp{
+            width: 75px;
+            height: 75px;
+            display: flex;
+            align-content: center;
+            margin: 70px;
+        }
+        #img-wsp:hover{
+            width: 75px;
+            height: 75px;
+        }
