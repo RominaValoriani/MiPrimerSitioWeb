@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Halant&display=swap');
+* {
+    box-sizing: border-box
+}
+body {
+    font-family: 'Halant', serif;
+    margin: 0;
+    background-color: #f8f8f8;
+}
+header {
+    width: 100%;
+    height: 80px;
+    background-color: #fff59f;
+    box-shadow: 0 5px 5px #bfc7ce
+}
+header nav {
+    font-size: 20px;
+    font-weight: 700;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    text-transform: uppercase;
+}
+header nav img {
+    width: 100px;
+    border-radius: 50%;
+    border: 2px solid;
+    border-color: #535e69;
+}
+header nav a {
+    text-decoration: none;
+    color: #000000;
+    line-height: 80px;
+    width: 110px;
+    text-align: center;
+}
+header a:hover {
+    color: #7b8b99;
+}
+/*index*/
+main {
+    width: auto;
+    padding: 20px;
+}
+#hero {
+    display: flex;
+    margin: 30px 20px;
+}
+#hero img{
+    height: 300px;
+    width: auto;
+}
+h1 {
+    font-size: 30px;
+    color: #383835;
+    display: flex;
+    justify-content: center;
+}
+#parrafo-hero p {
+    width: 450px;
+    font-size: 16px;
+    color: #383835;
+    text-align: justify;
+    margin: 15px;
+}
+#servicios img {
+    border-radius: 50%;
+    width: 90px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#servicios {
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+/*sobre mí*/
+.div-sobremi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#parrafo-sobremi h2 {
+    width: 500px;
+    font-size: 24px;
+    color: #383835;
+    text-align: center;
+    margin: 15px;
+}
+#parrafo-sobremi p {
+    width: 500px;
+    font-size: 16px;
+    color: #535e69;
+    text-align: justify;
+    margin: 15px;
+}
+#hero-foto {
+    height: 250px;
+    margin: 30px;
+}
+
+/*servicios*/
+.servicios {
+    margin: 20px;
+    display: flex;
+    height: 220px;
+}
+.servicios .imagen-servicio {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+.img-servicios{
+    border-radius: 50%; 
+    width: 100px;
+}
+.servicios .txt-servicio h2 {
+    width: 550px;
+    font-size: 24px;
+    margin: 20px;
+    color: #535e69;
+}
+.servicios .txt-servicio p {
+    font-size: 16px;
+    text-align: justify;
+    margin: 0 20px;
+    color: #535e69;
+}
+
+/*contacto*/
+#contenido-contacto .contacto {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    padding: 10px;
+}
+#contenido-contacto .contacto h2 {
+    font-size: 30px;
+    color: #535e69;
+    display: flex;
+    justify-content: space-around;
+}
+/*formulario*/
+.contacto form {
+    padding: 10px;
+}
+input,
+textarea {
+    width: 400px;
+    padding: 5px;
+    display: flex;
+    background-color: #faf7e2;
+    color: #535e69;
+    border: 1.5px solid #7b8b99;
+    border-radius: 5px;
+}
+textarea {
+    height: 70px;
+    resize: none;
+}
+button {
+    background-color: #383835;
+    color: #faf7e2;
+    font-weight: 700;
+    width: 100px;
+    padding: 5px;
+    border: 1px solid #535e69;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #ffe31a;
+    color: #383835;
+}
+/*footer*/
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: center;
+    background-color: #fff59f;
+}
+.logo {
+    width: 100px;
+    border-radius: 50%;
+    border: 2px solid;
+    border-color: #383835;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 15px;
+}
+.texto h3 {
+    width: 300px;
+    font-size: 18px;
+    color: #383835;
+    margin: 10px;
+}
+footer .social a {
+    margin-right: 8px;
+    text-decoration: none;
+}
+footer .social img {
+    width: 35px;
+    opacity: .6;
+}
+footer .social img:hover {
+    opacity: 1;
+}
+.condiciones-de-uso{
+    text-decoration: none;
+    font-size: 12px;
+    color: #7b8b99;
+}
+.aviso{
+    margin-right: 10px;
+}
+.contacto h4,
+a {
+    font-size: 16px;
+    color: #535e69;
+    text-decoration: none;
+    margin: 10px 0;
+}
+.tel-mail{
+    margin: 0;
+    font-size: 14px;
+}

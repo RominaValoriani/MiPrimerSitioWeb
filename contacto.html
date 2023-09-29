@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos1.css">
+    <title>Contacto</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html" title="Página Inicio">Inicio</a> 
+            <a href="sobremi.html" title="Página Sobre mí">Sobre mí</a>
+            <img src="imagenes/LogoRV3.png" alt="Logo Desarrollo Web de Romina Valoriani">
+            <a href="servicios.html" title="Página Servicios">Servicios</a>
+            <a href="contacto.html" title="Página Contacto">Contacto</a>
+        </nav>    
+    </header>
+    <main>
+        <section id="contenido-contacto">
+            <div class="contacto">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7890.577955573646!2d-61.97202421110791!3d-33.745691723925525!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95c864b3247a525d%3A0x98c17493f380fdd2!2sVenado%20Tuerto%2C%20Santa%20Fe!5e0!3m2!1ses-419!2sar!4v1644017116528!5m2!1ses-419!2sar" width="600" height="300" style="border:0;" allowfullscreen="" loading="lazy">
+                </iframe>           
+            </div>
+            <div class="contacto">
+                <form action="contacto.php" method=post>
+                    <h2>Formulario de contacto</h2>
+                    Nombre:
+                    <input type="text" name="nombre"><br>
+                    Localidad:
+                    <input type="text" name="localidad"><br>
+                    Email:
+                    <input type="email" name="email"><br>
+                    Consultas:
+                    <textarea name="consultas"></textarea><br>
+                    <button>Enviar</button>
+                </form>
+            </div>      
+        </section>
+    </main>
+    <footer>
+        <div>
+            <img class="logo" src="imagenes/LogoRV3.png" alt="Logo Desarrollo Web de Romina Valoriani">
+        </div>
+        <section class="texto-imagenes">
+            <div class="texto">
+                <h3>Desarrollo Web</h3>
+            </div>
+            <div class="social">
+                <a href="#" target="_blank"><img src="imagenes/instagram_icon.svg" alt="Vínculo a instagram">
+                <a href="#" target="_blank"><img src="imagenes/facebook_icon.svg" alt="Vínculo a facebook">
+                <a href="https://api.whatsapp.com/send?phone=" target="_blank"><img id="img-wsp" src="imagenes/whatsapp_icon.svg"></a>
+            </div>
+            <hr>
+            <div class="condiciones-de-uso">
+                    <a class="aviso" href="">Aviso legal</a>
+                    <a class="aviso" href="">Coondiciones de uso</a>
+            </div>
+        </section>
+        <section class="contacto">
+            <h4>Contacto:</h4>
+            <p class="tel-mail">Teléfono:
+                <a href="callto:5493462279635">03462 - 15279635</a>
+                <br>
+                Correo electrónico:
+                <a href="mailto:desarrolloweb@gmail.com">desarrolloweb@gmail.com</a>
+            </p>
+        </section>
+    </footer>
+</body>
+</html>
